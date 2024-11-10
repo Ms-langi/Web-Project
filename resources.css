@@ -1,0 +1,58 @@
+/* Headings styling */
+h {
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: purple;
+}
+
+.stories-container {
+    border: 2px solid #ccc; /* Light gray border */
+    padding: 20px;          /* Space inside the box */
+    margin: 10px 0;         /* Space outside the box */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    border-radius: 8px;     /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    display: flex;
+    flex-direction: row;
+    max-height: 20vh;
+    gap: 3%; /* Space between boxes */
+    justify-content: space-between; /* Distributes boxes evenly */
+  }
+
+  .blogs-container {
+    border: 2px solid #ccc; /* Light gray border */
+    padding: 20px;          /* Space inside the box */
+    margin: 10px 0;         /* Space outside the box */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    border-radius: 8px;     /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    max-height: 20vh;
+  }
+  .webinars-container {
+    border: 2px solid #ccc; /* Light gray border */
+    padding: 20px;          /* Space inside the box */
+    margin: 10px 0;         /* Space outside the box */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    border-radius: 8px;     /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    max-height: 20vh;
+  }
+  .bulletins-container {
+    border: 2px solid #ccc; /* Light gray border */
+    padding: 20px;          /* Space inside the box */
+    margin: 10px 0;         /* Space outside the box */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    border-radius: 8px;     /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    max-height: 20vh;
+  }
+  .journals-container {
+    border: 2px solid #ccc; /* Light gray border */
+    padding: 20px;          /* Space inside the box */
+    margin: 10px 0;         /* Space outside the box */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    border-radius: 8px;     /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+    max-height: 20vh;
+  }

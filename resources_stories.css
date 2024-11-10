@@ -1,0 +1,39 @@
+/* Heading */
+.story-box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 1;
+    background-color: #fff;
+    overflow-y: auto;  /* Enables vertical scrolling when content exceeds max-height */
+    max-height: 18vh; /* Initial height */
+    max-width: 30%;   
+    transition: max-height 0.3s ease; /* Smooth expand/collapse */
+    cursor: pointer; /* Makes it clear it's clickable */
+}
+
+.story-box.expanded {
+    max-height: 50vh; /* Expanded height */
+}
+.story-text {
+    display: -webkit-box;
+    line-clamp: none;
+    -webkit-line-clamp: 4; /* Show 4 lines initially */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+   
+}
+.story-box h {
+    margin: 10px;
+    color: purple;
+    font-size: larger;
+    font-weight: bolder;
+}
+/* Paragraphs */
+.story-box p {
+    margin: 10px;
+    padding: 10px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}

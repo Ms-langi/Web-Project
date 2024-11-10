@@ -1,0 +1,159 @@
+/* Body-Services Section styling */
+#services {    
+    margin: 10px;
+    padding: 0px;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px; /* Adjust the gap between elements if needed */
+}
+
+
+
+/* General Body Content Styling for Services */
+ .services-content {
+    width: 50%;
+    height: 100%;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 20px; /* Optional: Rounded corners */
+}
+/* General Image Containers Styling for Services */
+.services-image {    
+    width: 50%;
+    height: 100%;
+    flex: 1 1 auto;
+    display: flex;
+    border: 10px solid white; /* Border for clarity */
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px; /* Optional: Rounded corners */
+}
+/* General img  Styling for Services */
+ .services-image img {
+    width: 100%; /* Ensures the image takes up 100% width of the container */
+    height: 100%; /* Ensures the image takes up 100% height of the container */
+    object-fit: cover; /* Makes sure the image covers the entire container */
+    border-radius: 0px; /* Optional: Rounded corners */
+    background-color: #f9f9f9;    
+}
+/* Services content styling */
+.services-content {
+    width: 100%;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;   
+    border-radius: 10px; /* Optional: Rounded corners */
+}
+
+.information-hub {
+    background-color: #8c52ff;
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;   
+}
+.information-hub h {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    color: black;
+    text-align: left;
+}
+.information-hub p, li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: white;
+    text-align: justify;
+}
+.community-networking {
+    background-color: #0097b2;
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;   
+}
+.community-networking h {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+    text-align: left;
+}
+.community-networking p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+    text-align: justify;
+}
+.career-dev {
+    background-color: #b970de;
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;   
+}
+.career-dev h {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    color: purple;
+    text-align: left;
+}
+.career-dev p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+    text-align: justify;
+    line-height: 2.0;
+}
+.skills-development {
+    background-color: #8c52ff;
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;   
+}
+.skills-development h {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    color: black;
+    text-align: left;
+}
+.skills-development p, li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: white;
+    text-align: justify;
+}
+.info-access {
+    background-color: #0097b2;
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;   
+}
+.info-access h {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+    text-align: left;
+}
+.info-access p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+    text-align: justify;
+    line-height: 2.0;
+}

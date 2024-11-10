@@ -1,0 +1,131 @@
+.background-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden;
+}
+
+.slideshow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Position it behind the form container */
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Adjusts the image to cover the container */
+    opacity: 0; /* All images hidden by default */
+    transition: opacity 1s ease; /* Smooth fade effect */
+}
+
+.slide.active {
+    opacity: 1; /* Only active slide is visible */
+}
+
+/* Form Styling */
+.form {
+    position: relative;
+    z-index: 2; /* Place above slideshow */
+    max-width: 550px;
+    margin: 15px;
+    padding: 20px;
+    background-color: #d8aef4; /* Form background */
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* Input Field Wrapper */
+.input-wrapper {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+/* Label Styling */
+.form label {
+    position: absolute;
+    padding: 1px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier;
+    font-weight: bold;
+    color: purple;
+    transition: 0.5s ease;
+    pointer-events: none; /* Prevents label from being clickable */
+}
+.input-wrap {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Vertically center the label and dropdown */
+    margin-bottom: 10px; /* Space below the input-wrapper */
+}
+
+.label {
+    margin-right: 20px; /* Space between label and dropdown */
+    font-weight: bold; /* Optional: make the label bold */
+}
+.select {
+    appearance: none; /* Remove default dropdown arrow */
+    background: transparent; /* Make the background transparent */
+    border: none; /* No border */
+    padding: 25px; /* Add some padding */
+    font-size: 18px; /* Font size for dropdown text */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black; /* Text color */
+    border-bottom: 2px solid #cb6ce6; /* Underline style */
+    flex-grow: 1; /* Allow the select to grow to fill available space */
+}
+
+.select:focus {
+    outline: none; /* Remove focus outline */
+    border-bottom: 2px solid purple; /* Change underline color on focus */
+}
+/* Input Styling */
+.form input {
+    width: 100%;
+    padding: 8px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid #cb6ce6; /* Underline only */
+    background: none;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    outline: none;
+}
+
+/* Icon Styling */
+.icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #cb6ce6; /* Icon color matches underline */
+}
+
+
+/* Label Animation on Focus or When Filled */
+.form input:focus + label,
+.form input:not(:placeholder-shown) + label {
+    top: -10px;
+    font-size: 12px;
+    color: purple;
+}
+
+button {
+    width: 25%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: purple;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0097b2;
+}

@@ -1,0 +1,109 @@
+/* Footer */
+footer {
+    text-align: center;
+}
+
+/* Extras Container */
+.extras {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+padding: 20px;
+margin: 20px;
+background-color: white;
+}
+
+.extras a {
+color: black;
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+text-decoration: none;
+}
+
+.extras h {
+color: purple;
+font-weight: bold;
+font-size: large;
+}
+.extras ul {
+list-style-type: none;
+padding-left: 0;
+}
+
+.extras li {
+margin: 0;
+color: black;
+font-weight: smaller;
+}
+
+/* Slide show Container */
+.slideshow-container {
+position: relative;
+min-width: 500px;
+min-height: 200px;
+margin: 0;
+overflow: hidden;
+background-image: url('images/quotes.png'); /* Update with your image path */
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+.mySlides {
+display: none;
+padding: 40px;
+text-align: center;
+}
+
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 60%;
+left: 20%;
+width: auto;
+padding: 40px;
+color: purple;
+font-weight: bold;
+font-size: 15px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+.fade {
+animation: fade 1s;
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* Contact Us */
+.contact-us {
+background-color: #8c52ff;
+margin: 0;
+}
+
+.contact-us h {
+color: black;
+font-size: large;
+}
+.contact-us a, .contact-us p, .contact-us li {
+color: white;
+font-size: small;
+text-align: center;
+list-style-type: none;
+}
+
+.copyright {
+color: purple;
+font-size: smaller;
+margin: 10px;
+}

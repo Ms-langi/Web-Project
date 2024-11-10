@@ -1,0 +1,47 @@
+.background-image {
+    position: relative;
+    min-width: 95%;
+    max-height: 40%;
+    overflow: hidden;
+    z-index: 1; /* Position it behind the title container */
+}
+
+.Title {
+    z-index: 2; /* Place above background image */ 
+}
+h1 {
+    font-size: 2.5em;
+    margin: 10px;
+    color: purple;
+    font-size: larger;
+    font-weight: bolder;     
+}
+
+button {
+    width: 10%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: purple;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+h {
+    font-size: 1.5em;
+    margin: 10px;
+    color: purple;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+p {
+    margin: 10px;
+    padding: 10px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}

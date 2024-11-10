@@ -1,0 +1,87 @@
+/* Main Styling File */
+
+html, body {
+    height: 100%; /* Make the body take full height */
+    margin: 0; /* Remove default margin */
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Header */
+header {
+    padding: 10px;
+    background-color: white;
+}
+
+/* Header-navigation bar */
+.navbar {
+    margin: 0px 0px 0px 100px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    width: 100px;
+    height: auto;
+    margin-right: 100px;
+}
+
+/* Header-navigation bar anchor tags */
+.navbar a {
+    margin: 0 40px;
+    padding: 20px 0;
+    font-size: larger;
+    font-weight: bolder;
+    color: #8c52ff;
+    text-decoration: none;
+}
+
+.join-us-button {
+    background-color: #8c52ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+/* Dropdown */
+.dropbtn {
+    background-color: transparent;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 20px 20px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #8c52ff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color:#b970de;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

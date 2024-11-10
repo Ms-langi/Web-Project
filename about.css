@@ -1,0 +1,87 @@
+/* Body-About */
+#about {
+    background-color: #b970de;
+    padding: 10px;
+    margin: 10px;
+    }
+    .about h{
+        color: purple;  
+    }
+    
+    /* About Section styling */
+    .about-sections, .about-sections2, .about-sections3, .about-sections4{
+        display: flex;
+        justify-content: space-around;
+    }
+    .about-sections h {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        font-size: x-large;
+        color: purple;
+        text-align: left;
+    }
+    .about-sections p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+        color: black;
+        text-align: justify;
+        line-height: 2.0;
+    }
+    
+    /*Values */
+    .values-sections {
+        background-color: white;
+    }
+    .values-sections h {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        font-size: x-large;
+        color: purple;
+        text-align: left;
+    }
+    .values-sections p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: large;
+        color: black;
+        text-align: justify;
+        line-height: 2.0;
+    }
+    
+    /* Values containers styling */
+    .circle-container {
+        width: 120px;  /* Width of the circle */
+        height: 120px; /* Height of the circle */
+        background-color: #0097b2; /* Grass green color */
+        border-radius: 50%; /* Makes the container circular */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+    .circle-container1 {
+        width: 120px;  /* Width of the circle */
+        height: 120px; /* Height of the circle */
+        background-color: #8c52ff; /* Grass green color */
+        border-radius: 50%; /* Makes the container circular */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    .circle-container2 {
+        width: 120px;  /* Width of the circle */
+        height: 120px; /* Height of the circle */
+        background-color: #b970de; /* Grass green color */
+        border-radius: 50%; /* Makes the container circular */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }

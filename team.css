@@ -1,0 +1,36 @@
+.Team {
+    border: 2px solid #ccc; /* Light gray border */
+    padding: 20px;          /* Space inside the box */
+    margin: 10px 0;         /* Space outside the box */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    border-radius: 8px;     /* Rounded corners */
+    background-color: #f9f9f9; /* Light background color */
+}
+.Team h {
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-align: center;
+    margin: 15%;
+    color: purple;
+    font-weight: bolder;
+}
+
+.Team p {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.circle-container {
+    width: 240px;  /* Width of the circle */
+    height: 240px; /* Height of the circle */
+    background-color: #0097b2; /* Grass green color */
+    border-radius: 50%; /* Makes the container circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}

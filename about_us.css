@@ -1,0 +1,116 @@
+/* Body-Home */
+#home {    
+    margin: 10px;
+    padding: 0px;
+}
+
+/* General Body Content Styling for Home */
+.home-content {
+    width: 50%;
+    height: 100%;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+    border-radius: 20px; /* Optional: Rounded corners */
+}
+/* General Image Containers Styling for Home */
+.home-image {    
+    width: 50%;
+    height: 100%;
+    flex: 1 1 auto;
+    display: flex;
+    border: 10px solid white; /* Border for clarity */
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px; /* Optional: Rounded corners */
+}
+/* General img  Styling for Home */
+.home-image img {
+    width: 100%; /* Ensures the image takes up 100% width of the container */
+    height: 100%; /* Ensures the image takes up 100% height of the container */
+    object-fit: cover; /* Makes sure the image covers the entire container */
+    border-radius: 0px; /* Optional: Rounded corners */
+    background-color: #f9f9f9;    
+}
+
+
+/*  Introduction */
+
+.home-intro {
+    background-color: #b970de;
+    display: flex;  
+    justify-content: space-between;
+    border-radius: 10px; /* Optional: Rounded corners */
+}
+.home-intro h {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: purple;
+    text-align: left;
+}
+.home-intro p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+    text-align: justify;
+    line-height: 2.0;
+}
+/* Vision */
+.home-vision {
+    background-color: #8c52ff;
+    display: flex;    
+    justify-content: space-around;
+    border-radius: 10px; /* Optional: Rounded corners */
+}
+.home-vision h {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    color: black;
+    text-align: left;
+}
+.home-vision p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: white;
+    text-align: justify;
+    line-height: 2.0;
+}
+/* Mission */
+.home-mission {
+    background-color: #0097b2;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px; /* Optional: Rounded corners */
+}
+.home-mission h {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+    text-align: left;
+}
+.home-mission p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+    text-align: justify;
+    line-height: 2.0; 
+}
+/* Body-About */
+#about {
+background-color: #b970de;
+padding: 10px;
+margin: 10px;
+}
+.about h{
+    color: purple;  
+}
+

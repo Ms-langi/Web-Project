@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Involved</title>
+    <link rel="stylesheet" href="getinvolved.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+<div id="content">
+<div class="background-image">
+    <div class="slideshow">
+        <img src="images\red_green.jpg" alt="Image 1" class="slide">
+        <img src="images\red_petals.jpg" alt="Image 2" class="slide">
+        <img src="images\purple_leaves.jpeg" alt="Image 3" class="slide">    
+    </div>
+    <br><br><br><br>
+<div class="form">
+    <form action="https://getinvolved_msx.com/form-submission" method="post">
+        <!-- Name Field -->
+        <label for="name">Name</label>
+        <div class="input-wrapper">
+            <input type="text" id="name" name="name" required>
+            <span class="icon"><i class="fas fa-user"></i> </span>
+        </div>
+        <br><br>
+
+        <!-- Email Field -->
+        <label for="email">Email</label>
+        <div class="input-wrapper">
+            <input type="email" id="email" name="email" required>
+            <span class="icon"><i class="fas fa-envelope-open"></i></span>
+        </div>
+        <br><br>
+        <!-- Phone Field -->
+        <label for="phone">Phone</label>
+        <div class="input-wrapper">
+            <input type="tel" id="phone" name="phone" required>
+            <span class="icon"><i class="fas fa-phone"></i></span>
+        </div>
+        <br><br>
+
+        <!-- Country Field -->
+        <label for="country">Country</label>
+        <div class="input-wrapper">
+            <input type="text" id="country" name="country" required>
+            <span class="icon"><i class="fas fa-flag"></i></span>
+        </div>
+        <br><br>
+
+        <!-- Involvement Type Dropdown Menu --> 
+        <label for="Involvement-Type">Involvement Type</label>
+        <div class="input-wrap">
+            <div class="dropdown-container">
+                <select name="Involvement-Type" id="Involvement-Type" class="select">
+                    <option value="partnership">Partnership</option>
+                    <option value="funding">Funding</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+        </div>
+        <br><br>
+       
+        <!-- Message Field -->
+        <label for="message">Message:</label>
+        <div class="input-wrapper">
+        <input type="text" id="text" name="text" required>
+        <span class="icon"><i class="fas fa-comment"></i></span>
+        </div>
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</div>
+</div>
+<script src="getinvolved.js"></script>   
+</body>
+</html>
